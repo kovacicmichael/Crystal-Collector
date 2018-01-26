@@ -1,0 +1,94 @@
+{
+	border: blue solid 1px;
+}
+
+body{
+	background-image: url("../images/concrete-texture.png");
+	box-sizing: border-box;
+}
+
+
+header{
+	background-color: #D3D3D3;
+	color: black;
+	margin: -10px;
+	margin-bottom: 0;
+}
+h1{
+	margin:0;
+}
+.title{
+	padding: 10px 10px 10px 30px;
+}
+.instructions{
+	width: 60%;
+	margin: auto;
+	margin-top: 10px;
+	float:left;
+	background-color: #708090;
+	height: 275px;
+	padding-left: 10px;
+}
+
+.random{
+	float: left;
+	width: 15%;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	margin: 10px 10px 0px 40px;
+	background-color: #ADD8E6;
+}
+
+.scoreboard{
+	float:right;
+	width: 15%;
+	height: 120px;
+	text-align: center;
+	line-height: 60px;
+	margin: 10px 40px 0px 10px;
+	background-color: #F08080;
+}
+.winLose{
+	margin: 0;
+}
+
+.totalWrite{
+	float: left;
+	width: 15%;
+	height:120px;
+	text-align: center;
+	line-height: 120px;
+	margin: 35px 10px 10px 40px;
+	background-color:#F08080;
+}
+.score{
+	float: right;
+	width:15%;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	margin: 35px 40px 10px 10px;
+	background-color: #ADD8E6;
+}
+
+
+
+.crystal-1{
+	float:left;
+	margin-right: 15px;
+}
+
+.crystal-2{
+	float:left;
+	margin-right:15px;
+}
+
+.crystal-3{
+	float:left;
+	margin-right:15px;
+}
+
+.crystal-4{
+	float: left;
+}
