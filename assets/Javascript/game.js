@@ -74,15 +74,27 @@
 
         if(userTotalScore === computerRandomNumber){
             wins++
+            document.getElementById("win").innerHTML = wins;
             reset();
-            }else if(userTotalScore > computerRandomNumber){
+            setTimeout(function(){
+                    alert("win");
+                }, 100)
+            }else if (userTotalScore > computerRandomNumber){
                 losses++
+                document.getElementById("lose").innerHTML = losses;
                 reset();
+                setTimeout(function(){
+                    alert("lose");
+                }, 100)
+                
             }
         };
 
     function reset(){
             userTotalScore = 0;
+            var computerRandomNumber = Math.floor(Math.random() * ((120-19)+1) + 19);
+            console.log(computerRandomNumber)
+            document.getElementById("randomNumber").innerHTML = computerRandomNumber;
             
     }
 
