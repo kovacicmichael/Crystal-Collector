@@ -1,1 +1,3 @@
-# week-4-game
+# Crystal Collector
+
+https://kovacicmichael.github.io/Crystal-Collector/
